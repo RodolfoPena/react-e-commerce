@@ -2,6 +2,7 @@ import React from 'react'
 import NavBar from '../components/NavBar/index.jsx'
 import './styles.css'
 import {Jumbotron, Button, Container, Form, FormGroup, Label, Input, Row, Col} from 'reactstrap'
+import ItemCount from '../components/ItemCount/index.jsx'
 
 
 
@@ -33,6 +34,9 @@ const Home = (props) => {
                     </Col>
                 </Row>
             </Container>
+            <div>
+                <ItemCount/>
+            </div>
         </div>
     );
   }
